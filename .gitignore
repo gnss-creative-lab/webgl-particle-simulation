@@ -1,0 +1,16 @@
+# --- OS generated files ---
+.DS_Store
+Thumbs.db
+
+# --- Editor settings (VS Code etc.) ---
+.vscode/
+.history/
+*.vsix
+
+# --- Future Node.js support ---
+node_modules/
+npm-debug.log*
+
+# --- Temporary files ---
+*.log
+*.tmp
