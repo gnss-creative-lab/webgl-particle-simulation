@@ -4,7 +4,10 @@ An interactive 3D particle simulation exploring the beauty of mathematical struc
 
 ![Three.js](https://img.shields.io/badge/Three.js-0.160-black?logo=three.js)
 ![License](https://img.shields.io/badge/License-MIT-blue)
-![HTML5](https://img.shields.io/badge/HTML5-Single_File-orange?logo=html5)
+![HTML5](https://img.shields.io/badge/HTML5-Single_Page-orange?logo=html5)
+
+## 🔗 Live Demo
+[▶ Launch Interactive Simulation](https://gnss-creative-lab.github.io/webgl-particle-simulation/)
 
 ## ✨ Features
 
@@ -36,7 +39,7 @@ python -m http.server 8000
 # Using Node.js
 npx serve .
 ```
-Then open `http://localhost:8000/`
+Then open `http://localhost:8000/` (Local development only)
 
 ## 🎮 Controls
 
@@ -82,9 +85,11 @@ The attractor produces bounded but non-repeating trajectories, creating the appe
 ## 📁 Project Structure
 
 ```
-├── index.html      # Main application (single-file)
+├── index.html      # Web application entry point
+├── main.js         # Simulation logic & Three.js engine
+├── style.css       # UI layout & glassmorphism effects
 ├── LICENSE         # MIT License
-└── README.md       # This file
+└── README.md       # Project documentation
 ```
 
 ## ⚠️ Health Notice
